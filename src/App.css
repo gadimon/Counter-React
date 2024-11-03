@@ -1,0 +1,59 @@
+/* סגנון כללי */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* סגנון לכותרת המונה */
+h1 {
+  font-size: 48px;
+  color: #333333;
+  margin: 20px 0;
+}
+
+/* סגנון לכפתורים */
+button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+/* צבעים לכפתורים */
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+button.increment {
+  background-color: #4CAF50;
+}
+
+button.decrement {
+  background-color: #F44336;
+}
+
+button.reset {
+  background-color: #FF9800;
+}
